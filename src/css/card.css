@@ -1,0 +1,54 @@
+.card__UI {
+  height: calc(288px * 2);
+  width: calc(120px  * 3);
+  margin: 0% auto; }
+  .card__UI .layer {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    box-shadow: 5px 2px 10px #777777; }
+    .card__UI .layer .user__img__card {
+      height: 110px;
+      width: 110px;
+      border-radius: 50%;
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -40%);
+      background-color: white;
+      background-image: url("../img/pexels-pixabay-415829.jpg");
+      background-position: center top;
+      background-size: cover; }
+    .card__UI .layer .header__card {
+      height: calc(120px * 2);
+      width: 100%;
+      padding: 25px 25px;
+      display: inline-flex;
+      justify-content: space-between;
+      background-color: white;
+      background-image: url("../img/pexels-tranmautritam-225502.jpg");
+      background-size: cover;
+      background-position: center; }
+      .card__UI .layer .header__card .header__btn button:hover > i {
+        color: white; }
+    .card__UI .layer .main__card {
+      width: 100%;
+      height: calc((288px * 2) - (120px * 3) + 70px);
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .card__UI .layer .main__card * {
+        margin: 4px 0; }
+        .card__UI .layer .main__card * .title {
+          font-size: 19px;
+          font-weight: bold; }
+    .card__UI .layer .footer__card {
+      height: 50px;
+      width: 100%;
+      padding: 0 25px;
+      display: inline-flex;
+      justify-content: space-between;
+      align-items: center; }
+      .card__UI .layer .footer__card .footer__btn button:hover i {
+        color: grey; }
